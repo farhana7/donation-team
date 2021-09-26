@@ -1,0 +1,31 @@
+.person-container{
+    display: grid;
+    gap: 2rem;
+    margin: 4rem 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    text-align: center;
+
+}
+
+.person{
+    color: green;
+    border: 1px solid gray; 
+    padding-bottom: 5px;
+    background-color:seashell;
+    
+}
+
+.person-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn-regular{
+    background-color: salmon;
+    width: 150px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
